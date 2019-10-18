@@ -1,0 +1,5 @@
+c:\users\toshiba\documents\visual studio 2010\Projects\CRUD\CRUD\bin\CRUD.dll
+c:\users\toshiba\documents\visual studio 2010\Projects\CRUD\CRUD\bin\CRUD.pdb
+c:\users\toshiba\documents\visual studio 2010\Projects\CRUD\CRUD\obj\Debug\CRUD.dll
+c:\users\toshiba\documents\visual studio 2010\Projects\CRUD\CRUD\obj\Debug\CRUD.pdb
+C:\Users\Toshiba\Documents\Visual Studio 2010\Projects\CRUD\CRUD\obj\Debug\CRUD.csprojResolveAssemblyReference.cache

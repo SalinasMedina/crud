@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="funciones" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:3613/funciones.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:3613/funciones.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:3613/funciones.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="Ifunciones_guardar_InputMessage">
+    <wsdl:part name="parameters" element="tns:guardar" />
+  </wsdl:message>
+  <wsdl:message name="Ifunciones_guardar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:guardarResponse" />
+  </wsdl:message>
+  <wsdl:message name="Ifunciones_leer_InputMessage">
+    <wsdl:part name="parameters" element="tns:leer" />
+  </wsdl:message>
+  <wsdl:message name="Ifunciones_leer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:leerResponse" />
+  </wsdl:message>
+  <wsdl:message name="Ifunciones_modificar_InputMessage">
+    <wsdl:part name="parameters" element="tns:modificar" />
+  </wsdl:message>
+  <wsdl:message name="Ifunciones_modificar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:modificarResponse" />
+  </wsdl:message>
+  <wsdl:message name="Ifunciones_eliminar_InputMessage">
+    <wsdl:part name="parameters" element="tns:eliminar" />
+  </wsdl:message>
+  <wsdl:message name="Ifunciones_eliminar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:eliminarResponse" />
+  </wsdl:message>
+  <wsdl:message name="Ifunciones_buscar_InputMessage">
+    <wsdl:part name="parameters" element="tns:buscar" />
+  </wsdl:message>
+  <wsdl:message name="Ifunciones_buscar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:buscarResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Ifunciones">
+    <wsdl:operation name="guardar">
+      <wsdl:input wsaw:Action="http://tempuri.org/Ifunciones/guardar" message="tns:Ifunciones_guardar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Ifunciones/guardarResponse" message="tns:Ifunciones_guardar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="leer">
+      <wsdl:input wsaw:Action="http://tempuri.org/Ifunciones/leer" message="tns:Ifunciones_leer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Ifunciones/leerResponse" message="tns:Ifunciones_leer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="modificar">
+      <wsdl:input wsaw:Action="http://tempuri.org/Ifunciones/modificar" message="tns:Ifunciones_modificar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Ifunciones/modificarResponse" message="tns:Ifunciones_modificar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="eliminar">
+      <wsdl:input wsaw:Action="http://tempuri.org/Ifunciones/eliminar" message="tns:Ifunciones_eliminar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Ifunciones/eliminarResponse" message="tns:Ifunciones_eliminar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="buscar">
+      <wsdl:input wsaw:Action="http://tempuri.org/Ifunciones/buscar" message="tns:Ifunciones_buscar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/Ifunciones/buscarResponse" message="tns:Ifunciones_buscar_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_Ifunciones" type="tns:Ifunciones">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="guardar">
+      <soap:operation soapAction="http://tempuri.org/Ifunciones/guardar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="leer">
+      <soap:operation soapAction="http://tempuri.org/Ifunciones/leer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="modificar">
+      <soap:operation soapAction="http://tempuri.org/Ifunciones/modificar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminar">
+      <soap:operation soapAction="http://tempuri.org/Ifunciones/eliminar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscar">
+      <soap:operation soapAction="http://tempuri.org/Ifunciones/buscar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="funciones">
+    <wsdl:port name="BasicHttpBinding_Ifunciones" binding="tns:BasicHttpBinding_Ifunciones">
+      <soap:address location="http://localhost:3613/funciones.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

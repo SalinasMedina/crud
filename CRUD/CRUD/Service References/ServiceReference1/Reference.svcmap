@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9216a8e0-f8f7-4f18-bbd5-3b6e0b466ab8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:3613/funciones.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="funciones.xsd" MetadataType="Schema" ID="2ef8a088-4b34-421b-8644-6127f256e7f1" SourceId="1" SourceUrl="http://localhost:3613/funciones.svc?xsd=xsd2" />
+    <MetadataFile FileName="funciones1.xsd" MetadataType="Schema" ID="194f1d1c-e9f2-47d0-9a00-d12e873ce54d" SourceId="1" SourceUrl="http://localhost:3613/funciones.svc?xsd=xsd0" />
+    <MetadataFile FileName="funciones2.xsd" MetadataType="Schema" ID="2ce98879-cb4f-4002-86eb-e3f88ffc7a81" SourceId="1" SourceUrl="http://localhost:3613/funciones.svc?xsd=xsd1" />
+    <MetadataFile FileName="funciones.wsdl" MetadataType="Wsdl" ID="7417226d-43a7-4c94-964e-34d228f88178" SourceId="1" SourceUrl="http://localhost:3613/funciones.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

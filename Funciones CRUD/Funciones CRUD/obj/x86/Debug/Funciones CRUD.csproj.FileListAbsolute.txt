@@ -1,0 +1,9 @@
+c:\users\toshiba\documents\visual studio 2010\Projects\Funciones CRUD\Funciones CRUD\bin\Debug\Funciones CRUD.exe.config
+c:\users\toshiba\documents\visual studio 2010\Projects\Funciones CRUD\Funciones CRUD\bin\Debug\Funciones CRUD.exe
+c:\users\toshiba\documents\visual studio 2010\Projects\Funciones CRUD\Funciones CRUD\bin\Debug\Funciones CRUD.pdb
+c:\users\toshiba\documents\visual studio 2010\Projects\Funciones CRUD\Funciones CRUD\obj\x86\Debug\Funciones_CRUD.Form1.resources
+c:\users\toshiba\documents\visual studio 2010\Projects\Funciones CRUD\Funciones CRUD\obj\x86\Debug\Funciones_CRUD.Properties.Resources.resources
+c:\users\toshiba\documents\visual studio 2010\Projects\Funciones CRUD\Funciones CRUD\obj\x86\Debug\Funciones CRUD.csproj.GenerateResource.Cache
+c:\users\toshiba\documents\visual studio 2010\Projects\Funciones CRUD\Funciones CRUD\obj\x86\Debug\Funciones CRUD.exe
+c:\users\toshiba\documents\visual studio 2010\Projects\Funciones CRUD\Funciones CRUD\obj\x86\Debug\Funciones CRUD.pdb
+C:\Users\Toshiba\documents\visual studio 2010\Projects\Funciones CRUD\Funciones CRUD\obj\x86\Debug\Funciones CRUD.csprojResolveAssemblyReference.cache
